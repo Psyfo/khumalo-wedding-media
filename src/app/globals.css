@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #FEF1EC;
+    --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+/* Custom Global Styles */
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    /* Inherit box-sizing */
+}
+
+
+body {
+    color: var(--foreground);
+    background: #FEF1EC;
+    font-family: Canela, serif;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque';
+    src: url('/fonts/HvDTrial_BrandonGrotesque-Regular.woff2') format('woff2'),
+        url('/fonts/HvDTrial_BrandonGrotesque-Regular.woff') format('woff');
+    font-weight: 400;
+    /* Regular weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque';
+    src: url('/fonts/HvDTrial_BrandonGrotesque-Black.woff2') format('woff2'),
+        url('/fonts/HvDTrial_BrandonGrotesque-Black.woff') format('woff');
+    font-weight: 900;
+    /* Black weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque';
+    src: url('/fonts/HvDTrial_BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('/fonts/HvDTrial_BrandonGrotesque-Bold.woff') format('woff');
+    font-weight: 700;
+    /* Bold weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque';
+    src: url('/fonts/HvDTrial_BrandonGrotesque-Medium.woff2') format('woff2'),
+        url('/fonts/HvDTrial_BrandonGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    /* Medium weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/Calibri.woff2') format('woff2'),
+        /* Modern browsers */
+        url('/fonts/Calibri.woff') format('woff');
+    /* Older browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/Calibri-Bold.woff2') format('woff2'),
+        url('/fonts/Calibri-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Canela Thin */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Thin.woff2') format('woff2'),
+        url('/fonts/Canela-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-ThinItalic.woff2') format('woff2'),
+        url('/fonts/Canela-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Canela Light */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Light.woff2') format('woff2'),
+        url('/fonts/Canela-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-LightItalic.woff2') format('woff2'),
+        url('/fonts/Canela-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Canela Regular */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Regular.woff2') format('woff2'),
+        url('/fonts/Canela-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-RegularItalic.woff2') format('woff2'),
+        url('/fonts/Canela-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Canela Medium */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Medium.woff2') format('woff2'),
+        url('/fonts/Canela-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-MediumItalic.woff2') format('woff2'),
+        url('/fonts/Canela-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Canela SemiBold */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-SemiBold.woff2') format('woff2'),
+        url('/fonts/Canela-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-SemiBoldItalic.woff2') format('woff2'),
+        url('/fonts/Canela-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Canela Bold */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Bold.woff2') format('woff2'),
+        url('/fonts/Canela-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-BoldItalic.woff2') format('woff2'),
+        url('/fonts/Canela-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Canela Black */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Black.woff2') format('woff2'),
+        url('/fonts/Canela-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-BlackItalic.woff2') format('woff2'),
+        url('/fonts/Canela-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
