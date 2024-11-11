@@ -47,95 +47,76 @@ const Synopsis: React.FC = () => {
           transition={{ duration: 0.5 }}
           className='font-calibri uppercase text-center text-gray-700 text-[1.5rem] lg:text-[1.5rem] mb-8'
         >
-          Our Fairytale
+          Dear Family and Friends
         </motion.h3>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-calibri font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          <span className='italic'>Once upon at time,</span> there was a young
-          man named Zamani Khumalo. He had decided to spend his short 2008
-          December holiday with his mother, Gugu Khumalo in South Africa (Kloof,
-          KwaZulu -Natal) before heading back to study in the US.
+          We are filled with immense gratitude as we reflect on the love and
+          support we felt on our special day. Thank you for being a part of our
+          wedding celebration. Your presence meant the world to us, and we are
+          truly blessed to have shared these cherished moments with you.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-calibri font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          During his visit, a varsity friend to his mother named Pearl Gwamanda
-          paid them a visit, to reconnect and to also collect the keys for the
-          guesthouse, where she and her daughter Palesa Lebona would be staying.
+          To those who traveled from near and far, we are deeply grateful for
+          the time and effort you took to be with us. Your presence made our day
+          even more memorable, and we are so touched by the love you showed us.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-calibri font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          Upon opening the door to receive and welcome them, Zamani’s and
-          Palesa’s eyes locked and they spoke for hours as if they had known
-          each other years. They continued to have more riveting conversations
-          on the beach during the last 2 days of his holiday. Alas, he then had
-          to sadly bid her adieu and return to the US.
+          A special thank you goes out to everyone who helped us bring this day
+          to life—whether it was through your thoughtful assistance, kind words,
+          or simply being there for us along the way. We couldn’t have done it
+          without your support.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-calibri font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          However, their powerful and unwavering connection continued to grow
-          stronger and stronger despite distance and with the help of Skype
-          (Zoom’s grandfather), leading them to officially become a couple on
-          Jan 2nd 2010.
+          Thank you for making our wedding day everything we dreamed it would be
+          and more. We are excited to begin this new chapter of our lives,
+          knowing that we have such wonderful people by our side.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-calibri font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          Through a long distance relationship spanning multiple locations (i.e.
-          Texas, Oklahoma, Joburg, Cape Town, Pretoria, Los Angeles, Durban) and
-          Palesa’s career change from Marketing & Logistics to Film; they have
-          always loved, supported and been each other’s rock even when the world
-          didn’t understand/ questioned their relationship and Palesa’s career
-          change.
+          We would love to relive the joy and memories with you! If you captured
+          any special moments in photos or videos, please feel free to upload
+          them here so we can all enjoy and share in the celebration together.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-calibri font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          On 27 October 2021, Zamani won his bet of a surprise-wedding proposal,
-          where he proposed to Palesa on the very same beach where they had
-          solidified their connection in 2008; just the two of them wearing
-          tracksuits, no makeup, no fancy hair nor nails- just the two of them
-          in their purist form.
+          With love and appreciation,
         </motion.p>
-        <motion.p
-          initial={{ opacity: 0 }} // Start hidden
-          animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
-          transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
-        >
-          Being different, unconventional and true to themselves for the past 14
-          years, they look forward to embarking on their journey as husband and
-          wife in creating more fairytales and taking a page out of Frank
-          Sinatra’s book: doing love, life and everything else, Their Way.
-        </motion.p>
+
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
           className='font-canela font-light font-italic italic text-gray-700 text-[1rem] lg:text-[1.2rem] text-right mb-4'
         >
-          The End
+          Zamani & Palesa
         </motion.p>
       </div>
     </section>
