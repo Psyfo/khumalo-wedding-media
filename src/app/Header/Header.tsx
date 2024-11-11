@@ -1,8 +1,8 @@
-"use client";
-import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
-import { useParallax } from "react-scroll-parallax";
+'use client';
+import Image from 'next/image';
+import React from 'react';
+import { motion } from 'framer-motion';
+import { useParallax } from 'react-scroll-parallax';
 
 const Header = () => {
   // Animation variants for Framer Motion
@@ -51,7 +51,11 @@ const Header = () => {
         variants={backgroundVariants}
         ref={backgroundParallax.ref} // Applying the parallax effect
         className='absolute top-0 left-0 w-full h-full bg-cover bg-center'
-        style={{ backgroundImage: "url('/images/header/header3-min.jpg')" }}
+        style={
+          {
+            backgroundImage: 'url("/images/header/header4.jpg")',
+          } as React.CSSProperties
+        }
       />
 
       {/* Text Container */}
@@ -82,7 +86,17 @@ const Header = () => {
           ref={textParallax.ref} // Applying the parallax effect
           className='text-[1.3rem] md:text-[1.5rem] text-white text-center font-canela font-thin mt-4'
         >
-          Traditional Ceremony, November 2, 2024
+          Thank you for joining us on our special day!
+        </motion.p>
+        <motion.p
+          initial='hidden'
+          animate='visible'
+          variants={textVariants}
+          custom={1}
+          ref={textParallax.ref} // Applying the parallax effect
+          className='text-[1.3rem] md:text-[1.5rem] text-white text-center font-canela font-thin mt-4'
+        >
+          Share the good times with photos and video!
         </motion.p>
       </div>
     </div>
